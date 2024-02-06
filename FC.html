@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        .post {
+            margin-bottom: 40px;
+            display: flex;
+            /* Utilizamos flexbox para alinear elementos en línea */
+        }
+
+        .post h2 {
+            color: #333;
+        }
+
+        .post p {
+            color: #666;
+        }
+
+        .img-ref {
+            max-width: 250px;
+            margin-right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Lugares turisticos</h1>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Acerca de</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="container">
+        <div class="post">
+            <img class="img-ref"
+                src="https://static.nationalgeographicla.com/files/styles/image_3200/public/nationalgeographic2714870_0.jpg?w=1600&h=1069"
+                alt="No se pudo cargar la imagen">
+            <div>
+                <h2>Las Islas Galápagos</h2>
+                <p>Este archipiélago es famoso por su biodiversidad única y su papel en la teoría de la
+                    evolución de Charles
+                    Darwin. Las islas ofrecen una increíble variedad de vida marina y terrestre, incluidas
+                    tortugas
+                    gigantes, iguanas marinas, leones marinos y una gran variedad de aves.</p>
+            </div>
+        </div>
+        <div class="post">
+            <img class="img-ref" src="https://turismoi.ec/uploads/ec/photo/photo_file/12350/ciudad-mitad-del-mundo.jpg"
+                alt="No se pudo cargar la imagen">
+            <div>
+                <h2>Ciudad Mitad del Mundo</h2>
+                <p>Situada a las afueras de Quito, la capital de Ecuador, esta atracción marca el punto exacto donde la
+                    línea ecuatorial cruza el país. Aquí puedes pararte con un pie en el hemisferio norte y otro en el
+                    hemisferio sur, además de visitar un museo y disfrutar de exhibiciones culturales.</p>
+            </div>
+        </div>
+        <div class="post">
+            <img class="img-ref" src="https://www.turismoecuador24.com/archivos/destinos/animal_park.jpg"
+                alt="No se pudo cargar la imagen">
+            <div>
+                <h2>Ciudad de Baños de Agua Santa</h2>
+                <p>Ubicada en los Andes ecuatorianos, Baños es conocida por sus aguas termales naturales y su hermoso
+                    entorno natural. Es un destino popular para actividades al aire libre como senderismo, ciclismo de
+                    montaña, puenting y rafting en el río Pastaza. Además, ofrece vistas impresionantes del volcán
+                    Tungurahua.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
